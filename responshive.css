@@ -1,0 +1,169 @@
+@media (max-width: 1024px) { /* Tablets */
+    .carousel1 h5 {
+        font-size: 4rem; /* Adjust heading size */
+        text-align: center;
+        /* margin-top: -137px; */
+    }
+
+    .carousel-item img{
+        height: 100vh;
+    }
+    .carousel1 p {
+        font-size: 1rem;
+    }
+   
+    #popular{
+        /* margin-top: 2.5rem; */
+    }
+
+    img{
+    
+    }
+}
+
+ /* 🌟 Mobile & Tablet Responsiveness */
+ @media (max-width: 991px) { /* Tablets & small desktops */
+    .carousel-caption {
+        width: 90%;
+        top: 55%;
+    }
+    .carousel-caption h1 {
+        font-size: 2.5rem; /* Reduce heading size */
+    }
+    .carousel-caption p {
+        font-size: 1.1rem;
+    }
+    .hero-btn {
+        font-size: 1rem;
+        padding: 10px 18px;
+    }
+}
+
+@media (max-width: 768px) { /* Mobile */
+    .carousel-caption {
+        width: 95%;
+        top: 60%;
+    }
+    .carousel-caption h1 {
+        font-size: 2rem; /* Smaller heading for mobile */
+        margin-top: -4rem;
+    }
+    .carousel-caption p {
+        font-size: 1rem;
+    }
+    .hero-btn {
+        font-size: 0.9rem;
+        padding: 8px 16px;
+    }
+    .popular{
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:480px) { /* Mobile */
+
+    .carousel-item img{
+        width: 100%;
+        height: 70vh;
+    }
+    .carousel-caption {
+        width: 100%;
+        top: 65%;
+    }
+    .carousel-caption h1 {
+        font-size: 1.8rem;
+        margin-top: -16rem;
+    }
+    
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+    .hero-btn {
+        font-size: 0.85rem;
+        padding: 7px 14px;
+    }
+
+    .popular{
+        margin-top: -170px;
+    }
+
+    .order-sm-first{
+        margin-top: 2rem;
+    }
+
+    footer{
+        text-align: center;
+    }
+    .carousel-caption h1{
+        font-size: 2.3rem;
+    }
+    
+    .carousel-caption p{
+        font-size: 1.3rem;
+    }
+}
+
+/* contact us form  */
+
+/* .container{
+    width: 1000px!important;
+} */
+p{
+    font-size: 12px;
+}
+h1{
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif!important; */
+}
+.bg-primary{
+    background-color: #01d28e !important;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif!important; */
+
+}
+.form-control {
+    height: 36px;
+    background: #fff;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.contactForm .form-control {
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+
+
+.form-control:focus,.form-control:active {
+    border-color: #01d28e !important;
+}
+.form-label {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.btn.btn-primary {
+    background: #01d28e !important;
+    border-color: #01d28e !important;
+    color: #fff;
+    width: 100px;
+    border-radius: 0!important;
+    
+}
+.btn.btn-primary:hover{
+    background-color: #28a745!important;
+}
+
+.bi{
+    font-size: 50px;
+}
+
+#contact{
+    background-color: black ;
+}
+
+
+
